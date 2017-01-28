@@ -42,7 +42,7 @@
 			"zwave": {
 				"manufacturerId": 265,
 				"productTypeId": 8194,
-				"productId": [515, 517],
+				"productId": [517],
 				"learnmode": {
 					"image": "/drivers/ZP3102.EU/assets/learnmode.svg",
 					"instruction": {
@@ -64,6 +64,39 @@
 			"images": {
 				"large": "/drivers/ZP3102.EU/assets/images/large.jpg",
 				"small": "/drivers/ZP3102.EU/assets/images/small.jpg"
+			}
+		},
+		{
+			"id": "ZP3102.EU_PIR",
+			"name": {
+				"en": "ZP3102 PIR",
+				"nl": "ZP3102 PIR"
+			},
+			"zwave": {
+				"manufacturerId": 265,
+				"productTypeId": 8194,
+				"productId": [515],
+				"learnmode": {
+					"image": "/drivers/ZP3102.EU_PIR/assets/learnmode.svg",
+					"instruction": {
+						"en": "Push the program switch on the back",
+						"nl": "Druk op de programma toets op de achterkant"
+					}
+				},
+				"associationGroups": [
+					1
+				]
+			},
+			"class": "sensor",
+			"capabilities": [
+				"alarm_motion",
+				"alarm_tamper",
+				"measure_temperature",
+				"measure_battery"
+			],
+			"images": {
+				"large": "/drivers/ZP3102.EU_PIR/assets/images/large.jpg",
+				"small": "/drivers/ZP3102.EU_PIR/assets/images/small.jpg"
 			}
 		},
 		{
